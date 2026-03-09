@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 from IPython.display import HTML
 
-# note that sigma=10, beta=8/3, rho=28 are the values for the lorenz attractor
+# note that sigma=10, beta=8/3, rho=28 are the common values for the lorenz attractor
 def lorenz(t, state, sigma=10, beta=8/3, rho=28):
     x, y, z = state
     dxdt = sigma * (y-x)
